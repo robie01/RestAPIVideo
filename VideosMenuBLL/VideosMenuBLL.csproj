@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VideosMenuDAL\VideosMenuDAL.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="IVideosService.cs" />
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="Services\BOVideo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="BO\" />
+    <Folder Include="Converter\" />
+  </ItemGroup>
+</Project>
