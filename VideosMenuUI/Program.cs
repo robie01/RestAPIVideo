@@ -81,7 +81,12 @@ namespace VideosMenuUI
 
 		}
 
-      
+        private static void SearchVideo()
+        {
+            throw new NotImplementedException();
+        }
+
+
 
 
         /// <summary>
