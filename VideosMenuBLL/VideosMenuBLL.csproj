@@ -15,6 +15,7 @@
     <Compile Remove="IVideosService.cs" />
     <Compile Remove="Class1.cs" />
     <Compile Remove="Services\BOVideo.cs" />
+    <Compile Remove="Converter\CustomerConverter 2.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
