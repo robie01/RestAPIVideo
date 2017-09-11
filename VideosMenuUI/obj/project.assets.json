@@ -15561,10 +15561,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/Seagate Backup Plus Drive/C#Projects/VideosMenuApp/VideosMenuApp/VideosMenuUI/VideosMenuUI.csproj",
+      "projectUniqueName": "/Users/robiesun/Documents/RestAPIVideo/VideosMenuUI/VideosMenuUI.csproj",
       "projectName": "VideosMenuUI",
-      "projectPath": "/Volumes/Seagate Backup Plus Drive/C#Projects/VideosMenuApp/VideosMenuApp/VideosMenuUI/VideosMenuUI.csproj",
-      "outputPath": "/Volumes/Seagate Backup Plus Drive/C#Projects/VideosMenuApp/VideosMenuApp/VideosMenuUI/obj",
+      "projectPath": "/Users/robiesun/Documents/RestAPIVideo/VideosMenuUI/VideosMenuUI.csproj",
+      "outputPath": "/Users/robiesun/Documents/RestAPIVideo/VideosMenuUI/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -15572,8 +15572,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "/Volumes/Seagate Backup Plus Drive/C#Projects/VideosMenuApp/VideosMenuApp/VideosMenuBLL/VideosMenuBLL.csproj": {
-              "projectPath": "/Volumes/Seagate Backup Plus Drive/C#Projects/VideosMenuApp/VideosMenuApp/VideosMenuBLL/VideosMenuBLL.csproj"
+            "/Users/robiesun/Documents/RestAPIVideo/VideosMenuBLL/VideosMenuBLL.csproj": {
+              "projectPath": "/Users/robiesun/Documents/RestAPIVideo/VideosMenuBLL/VideosMenuBLL.csproj"
             }
           }
         }

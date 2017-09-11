@@ -4986,10 +4986,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/Seagate Backup Plus Drive/C#Projects/VideosMenuApp/VideosMenuApp/VideosMenuBLL/VideosMenuBLL.csproj",
+      "projectUniqueName": "/Users/robiesun/Documents/RestAPIVideo/VideosMenuBLL/VideosMenuBLL.csproj",
       "projectName": "VideosMenuBLL",
-      "projectPath": "/Volumes/Seagate Backup Plus Drive/C#Projects/VideosMenuApp/VideosMenuApp/VideosMenuBLL/VideosMenuBLL.csproj",
-      "outputPath": "/Volumes/Seagate Backup Plus Drive/C#Projects/VideosMenuApp/VideosMenuApp/VideosMenuBLL/obj",
+      "projectPath": "/Users/robiesun/Documents/RestAPIVideo/VideosMenuBLL/VideosMenuBLL.csproj",
+      "outputPath": "/Users/robiesun/Documents/RestAPIVideo/VideosMenuBLL/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
@@ -4997,8 +4997,8 @@
       "frameworks": {
         "netstandard1.6": {
           "projectReferences": {
-            "/Volumes/Seagate Backup Plus Drive/C#Projects/VideosMenuApp/VideosMenuApp/VideosMenuDAL/VideosMenuDAL.csproj": {
-              "projectPath": "/Volumes/Seagate Backup Plus Drive/C#Projects/VideosMenuApp/VideosMenuApp/VideosMenuDAL/VideosMenuDAL.csproj"
+            "/Users/robiesun/Documents/RestAPIVideo/VideosMenuDAL/VideosMenuDAL.csproj": {
+              "projectPath": "/Users/robiesun/Documents/RestAPIVideo/VideosMenuDAL/VideosMenuDAL.csproj"
             }
           }
         }

@@ -4967,10 +4967,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/Seagate Backup Plus Drive/C#Projects/VideosMenuApp/VideosMenuApp/VideosMenuDAL/VideosMenuDAL.csproj",
+      "projectUniqueName": "/Users/robiesun/Documents/RestAPIVideo/VideosMenuDAL/VideosMenuDAL.csproj",
       "projectName": "VideosMenuDAL",
-      "projectPath": "/Volumes/Seagate Backup Plus Drive/C#Projects/VideosMenuApp/VideosMenuApp/VideosMenuDAL/VideosMenuDAL.csproj",
-      "outputPath": "/Volumes/Seagate Backup Plus Drive/C#Projects/VideosMenuApp/VideosMenuApp/VideosMenuDAL/obj",
+      "projectPath": "/Users/robiesun/Documents/RestAPIVideo/VideosMenuDAL/VideosMenuDAL.csproj",
+      "outputPath": "/Users/robiesun/Documents/RestAPIVideo/VideosMenuDAL/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
