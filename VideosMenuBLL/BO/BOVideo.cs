@@ -13,6 +13,8 @@ namespace VideosMenuBLL.BO
             }
 
             [Required]
+            [MaxLength(10)]
+            [MinLength(3)]
 			public string Title
 			{
 				get;

@@ -1,15 +1,17 @@
 ﻿<Properties StartupConfiguration="{ED263825-9EB2-4CBA-B0D6-5508C66F8F59}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="VideosMenuBLL/BO/BOVideo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="VideosMenuDAL/Repositories/VideoRepositoryEFMemory.cs">
     <Files>
-      <File FileName="VideoRestAPI/Controllers/VideoController.cs" Line="42" Column="9" />
-      <File FileName="VideosMenuBLL/Services/VideoService.cs" Line="1" Column="1" />
-      <File FileName="VideosMenuBLL/BO/BOVideo.cs" Line="12" Column="9" />
+      <File FileName="VideoRestAPI/Controllers/VideoController.cs" Line="40" Column="1" />
+      <File FileName="VideosMenuBLL/Services/VideoService.cs" Line="27" Column="1" />
+      <File FileName="VideosMenuBLL/BO/BOVideo.cs" Line="18" Column="9" />
+      <File FileName="VideosMenuBLL/Converter/CustomerConverter.cs" Line="31" Column="1" />
+      <File FileName="VideosMenuDAL/Repositories/VideoRepositoryEFMemory.cs" Line="22" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/Controllers/VideoController.cs" relfile="VideoRestAPI/Controllers/VideoController.cs" line="46" column="1" />
+      <Breakpoint file="/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/Controllers/VideoController.cs" relfile="VideoRestAPI/Controllers/VideoController.cs" line="34" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
