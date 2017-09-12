@@ -1,0 +1,16 @@
+/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/bin/Debug/netcoreapp2.0/libe_sqlite3.dylib
+/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/bin/Debug/netcoreapp2.0/VideoRestAPI.deps.json
+/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/bin/Debug/netcoreapp2.0/VideoRestAPI.runtimeconfig.json
+/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/bin/Debug/netcoreapp2.0/VideoRestAPI.runtimeconfig.dev.json
+/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/bin/Debug/netcoreapp2.0/VideoRestAPI.dll
+/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/bin/Debug/netcoreapp2.0/VideoRestAPI.pdb
+/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/bin/Debug/netcoreapp2.0/VideosMenuBLL.dll
+/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/bin/Debug/netcoreapp2.0/VideosMenuDAL.dll
+/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/bin/Debug/netcoreapp2.0/VideosMenuBLL.pdb
+/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/bin/Debug/netcoreapp2.0/VideosMenuDAL.pdb
+/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/obj/Debug/netcoreapp2.0/VideoRestAPI.csprojResolveAssemblyReference.cache
+/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/obj/Debug/netcoreapp2.0/VideoRestAPI.csproj.CoreCompileInputs.cache
+/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/obj/Debug/netcoreapp2.0/VideoRestAPI.AssemblyInfoInputs.cache
+/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/obj/Debug/netcoreapp2.0/VideoRestAPI.AssemblyInfo.cs
+/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/obj/Debug/netcoreapp2.0/VideoRestAPI.dll
+/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/obj/Debug/netcoreapp2.0/VideoRestAPI.pdb

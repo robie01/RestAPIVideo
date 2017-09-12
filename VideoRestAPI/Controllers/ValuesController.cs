@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using VideosMenuBLL.BO;
 
 namespace VideoRestAPI.Controllers
 {
@@ -10,6 +11,7 @@ namespace VideoRestAPI.Controllers
     public class ValuesController : Controller
     {
         // GET api/values
+        // R in CRUD
         [HttpGet]
         public IEnumerable<string> Get()
         {
@@ -17,15 +19,17 @@ namespace VideoRestAPI.Controllers
         }
 
         // GET api/values/5
+        // R in CRUD 
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return "value -- " + id;
         }
 
         // POST api/values
+        // BO comes from JSON using ModelBinding
         [HttpPost]
-        public void Post([FromBody]string value)
+        public void Post([FromBody]BOVideo video)
         {
         }
 

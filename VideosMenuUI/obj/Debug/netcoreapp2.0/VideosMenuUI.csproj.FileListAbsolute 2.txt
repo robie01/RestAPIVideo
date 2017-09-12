@@ -1,0 +1,15 @@
+/Users/robiesun/Documents/RestAPIVideo/VideosMenuUI/obj/Debug/netcoreapp2.0/VideosMenuUI.csprojResolveAssemblyReference.cache
+/Users/robiesun/Documents/RestAPIVideo/VideosMenuUI/obj/Debug/netcoreapp2.0/VideosMenuUI.csproj.CoreCompileInputs.cache
+/Users/robiesun/Documents/RestAPIVideo/VideosMenuUI/obj/Debug/netcoreapp2.0/VideosMenuUI.AssemblyInfoInputs.cache
+/Users/robiesun/Documents/RestAPIVideo/VideosMenuUI/obj/Debug/netcoreapp2.0/VideosMenuUI.AssemblyInfo.cs
+/Users/robiesun/Documents/RestAPIVideo/VideosMenuUI/bin/Debug/netcoreapp2.0/VideosMenuUI.deps.json
+/Users/robiesun/Documents/RestAPIVideo/VideosMenuUI/bin/Debug/netcoreapp2.0/VideosMenuUI.runtimeconfig.json
+/Users/robiesun/Documents/RestAPIVideo/VideosMenuUI/bin/Debug/netcoreapp2.0/VideosMenuUI.runtimeconfig.dev.json
+/Users/robiesun/Documents/RestAPIVideo/VideosMenuUI/bin/Debug/netcoreapp2.0/VideosMenuUI.dll
+/Users/robiesun/Documents/RestAPIVideo/VideosMenuUI/bin/Debug/netcoreapp2.0/VideosMenuUI.pdb
+/Users/robiesun/Documents/RestAPIVideo/VideosMenuUI/bin/Debug/netcoreapp2.0/VideosMenuBLL.dll
+/Users/robiesun/Documents/RestAPIVideo/VideosMenuUI/bin/Debug/netcoreapp2.0/VideosMenuDAL.dll
+/Users/robiesun/Documents/RestAPIVideo/VideosMenuUI/bin/Debug/netcoreapp2.0/VideosMenuBLL.pdb
+/Users/robiesun/Documents/RestAPIVideo/VideosMenuUI/bin/Debug/netcoreapp2.0/VideosMenuDAL.pdb
+/Users/robiesun/Documents/RestAPIVideo/VideosMenuUI/obj/Debug/netcoreapp2.0/VideosMenuUI.dll
+/Users/robiesun/Documents/RestAPIVideo/VideosMenuUI/obj/Debug/netcoreapp2.0/VideosMenuUI.pdb

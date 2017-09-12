@@ -16,4 +16,11 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\VideosMenuBLL\VideosMenuBLL.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Controllers\Video.cs" />
+    <Compile Remove="Controllers\ValuesController.cs" />
+  </ItemGroup>
 </Project>
