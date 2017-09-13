@@ -17,6 +17,10 @@ namespace VideosMenuDAL.Context
 
         // remember this is from entityFrameWork
         public DbSet<Video> Videos { get; set; }
+
+		public DbSet<Genre> Genres { get; set; }
+
+		public DbSet<Rental> Rents { get; set; }
         
     }
 }
