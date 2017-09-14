@@ -4,7 +4,7 @@ using VideosMenuDAL.Entities;
 
 namespace VideosMenuBLL.Converter
 {
-	public class CustomerConverter
+	public class VideoConverter
 	{
 
 		internal BOVideo Convert(Video vid)

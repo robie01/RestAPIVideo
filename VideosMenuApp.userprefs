@@ -1,13 +1,11 @@
 ﻿<Properties StartupConfiguration="{ED263825-9EB2-4CBA-B0D6-5508C66F8F59}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="VideosMenuDAL/Repositories/RentalRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="VideosMenuBLL/IRentalService.cs">
     <Files>
-      <File FileName="VideoRestAPI/Controllers/VideoController.cs" Line="41" Column="10" />
-      <File FileName="VideosMenuDAL/Repositories/VideoRepositoryEFMemory.cs" Line="23" Column="1" />
-      <File FileName="VideosMenuDAL/Entities/Genre.cs" Line="16" Column="10" />
-      <File FileName="VideosMenuDAL/Entities/Rental.cs" Line="16" Column="10" />
-      <File FileName="VideosMenuDAL/IVideoRepository.cs" Line="18" Column="24" />
-      <File FileName="VideosMenuDAL/Repositories/GenreRepository.cs" Line="19" Column="10" />
-      <File FileName="VideosMenuDAL/Repositories/RentalRepository.cs" Line="41" Column="1" />
+      <File FileName="VideosMenuBLL/Services/RentalService.cs" Line="5" Column="6" />
+      <File FileName="VideosMenuBLL/Services/VideoService.cs" Line="21" Column="1" />
+      <File FileName="VideosMenuBLL/IVideoService.cs" Line="9" Column="1" />
+      <File FileName="VideosMenuBLL/IGenreService.cs" Line="27" Column="1" />
+      <File FileName="VideosMenuBLL/IRentalService.cs" Line="8" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

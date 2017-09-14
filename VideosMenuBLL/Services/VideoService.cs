@@ -9,9 +9,9 @@ using VideosMenuDAL.Entities;
 namespace VideosMenuBLL.Services
 {
 
-    public class VideoService : IVideoService // This means the actual CustomerService class should have all the implementation from ICustomerService
+    public class VideoService : IVideoService // This means the actual VideoService class should have all the implementation from IVideoService
     {
-        CustomerConverter con = new CustomerConverter();
+        VideoConverter con = new VideoConverter();
 
         DALFacade facade;
         public VideoService(DALFacade facade)

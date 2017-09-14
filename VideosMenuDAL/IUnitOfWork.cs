@@ -8,6 +8,11 @@ namespace VideosMenuDAL
             get;
         }
 
+		IGenreRepository GenreRepository
+		{
+			get;
+		}
+
         int Complete();
     }
 }

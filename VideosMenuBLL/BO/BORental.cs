@@ -1,7 +1,7 @@
 ﻿using System;
-namespace VideosMenuDAL.Entities
+namespace VideosMenuBLL.BO
 {
-    public class Rental
+    public class BORental
     {
         public int Id
         {

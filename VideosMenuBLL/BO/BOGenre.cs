@@ -1,9 +1,10 @@
 ﻿using System;
-namespace VideosMenuDAL.Entities
+namespace VideosMenuBLL.BO
 {
-    public class Genre
+    public class BOGenre
     {
-       public int Id
+        
+        public int Id
         {
             get;
             set;
@@ -16,5 +17,4 @@ namespace VideosMenuDAL.Entities
         }
     
     }
-
 }
