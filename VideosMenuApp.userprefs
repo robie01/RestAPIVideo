@@ -1,18 +1,8 @@
 ﻿<Properties StartupConfiguration="{ED263825-9EB2-4CBA-B0D6-5508C66F8F59}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="VideosMenuBLL/IRentalService.cs">
-    <Files>
-      <File FileName="VideosMenuBLL/Services/RentalService.cs" Line="5" Column="6" />
-      <File FileName="VideosMenuBLL/Services/VideoService.cs" Line="21" Column="1" />
-      <File FileName="VideosMenuBLL/IVideoService.cs" Line="9" Column="1" />
-      <File FileName="VideosMenuBLL/IGenreService.cs" Line="27" Column="1" />
-      <File FileName="VideosMenuBLL/IRentalService.cs" Line="8" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/Controllers/VideoController.cs" relfile="VideoRestAPI/Controllers/VideoController.cs" line="34" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.VideoRestAPI PreferredExecutionTarget="MonoDevelop.Default" />
