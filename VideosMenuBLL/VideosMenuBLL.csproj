@@ -19,11 +19,15 @@
     <Compile Remove="Services\IGenreRepository.cs" />
     <Compile Remove="Services\IRentalRepository.cs" />
     <Compile Remove="Services\EmptyInterface.cs" />
-    <Compile Remove="IGenreService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
     <Folder Include="BO\" />
     <Folder Include="Converter\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="IGenreService.cs">
+      <Link>IGenreService.cs</Link>
+    </Compile>
   </ItemGroup>
 </Project>

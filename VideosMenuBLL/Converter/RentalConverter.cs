@@ -15,11 +15,13 @@ namespace VideosMenuBLL.Converter
 		/// <param name="genre">Genre.</param>
 		internal BORental Convert(Rental rent)
 		{
+            if (rent == null) { return null; }
             return new BORental()
-			{
-				Id = rent.Id,
+            {
+                Id = rent.Id,
                 DeliveryDate = rent.DeliveryDate,
-                RentalDate = rent.RentalDate
+                RentalDate = rent.RentalDate,
+                Video = new VideoConverter().Convert(rent.Video)
 			};
 		}
 
@@ -30,11 +32,13 @@ namespace VideosMenuBLL.Converter
 		/// <param name="gen">Gen.</param>
         internal Rental Convert(BORental rent)
 		{
+            if (rent == null) { return null; }
             return new Rental()
 			{
 				Id = rent.Id,
                 DeliveryDate = rent.DeliveryDate,
-                RentalDate = rent.RentalDate
+                RentalDate = rent.RentalDate,
+                Video = new VideoConverter().Convert(rent.Video)
 			};
 
 		}

@@ -20,5 +20,10 @@ namespace VideosMenuBLL.BO
             get;
             set;
         }
+        public BOVideo  Video
+        {
+            get;
+            set;
+        }
     }
 }

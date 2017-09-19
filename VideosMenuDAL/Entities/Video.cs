@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace VideosMenuDAL.Entities
 {
     public class Video
@@ -26,5 +28,11 @@ namespace VideosMenuDAL.Entities
 				get;
 				set;
 			}
+        public List<Rental> Rentals
+        {
+            get;
+            set;
+        }
+
 		}
 }

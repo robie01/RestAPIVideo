@@ -14,7 +14,11 @@ namespace VideosMenuDAL.Entities
             get;
             set;
         }
-    
+		public Video Video
+		{
+			get;
+			set;
+		}
     }
 
 }

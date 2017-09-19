@@ -1,5 +1,14 @@
 ﻿<Properties StartupConfiguration="{ED263825-9EB2-4CBA-B0D6-5508C66F8F59}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="VideosMenuBLL/Converter/RentalConverter.cs">
+    <Files>
+      <File FileName="VideosMenuBLL/Services/RentalService.cs" Line="19" Column="9" />
+      <File FileName="VideosMenuDAL/Entities/Rental.cs" Line="30" Column="17" />
+      <File FileName="VideosMenuDAL/Repositories/RentalRepository.cs" Line="45" Column="6" />
+      <File FileName="VideoRestAPI/Startup.cs" Line="62" Column="18" />
+      <File FileName="VideosMenuBLL/BO/BORental.cs" Line="27" Column="10" />
+      <File FileName="VideosMenuBLL/Converter/RentalConverter.cs" Line="38" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

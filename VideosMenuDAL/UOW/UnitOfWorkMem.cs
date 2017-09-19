@@ -4,12 +4,12 @@ using VideosMenuDAL.Repositories;
 
 namespace VideosMenuDAL.UOW
 {
-
 	public class UnitOfWorkMem : IUnitOfWork
     {
         public IVideoRepository VideoRepository { get; internal set; }
 		public IGenreRepository GenreRepository { get; internal set; }
-		public IRentalRepository RentalRepository { get; internal set; }
+        public IRentalRepository RentalRepository { get; internal set; }
+       
 
         private InMemoryContext context;
 

@@ -9,6 +9,7 @@ namespace VideosMenuBLL.Converter
 
 		internal BOVideo Convert(Video vid)
 		{
+            if (vid == null) { return null; }
 			return new BOVideo()
 			{
 				Id = vid.Id,
@@ -20,6 +21,7 @@ namespace VideosMenuBLL.Converter
 
 		internal Video Convert(BOVideo videoo)
 		{
+			if (videoo == null) { return null; }
 			return new Video()
 			{
 				Id = videoo.Id,

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using VideosMenuDAL.Context;
 using VideosMenuDAL.Entities;
 
@@ -16,6 +17,11 @@ namespace VideosMenuDAL.Repositories
 
         public Rental Create(Rental rent)
         {
+            if(rent.Video != null)
+            {
+                _context.Entry(rent.Video).State = 
+                   EntityState.Unchanged;
+            }
             _context.Rents.Add(rent);
             return rent;
         }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using VideosMenuDAL.Context;
 using VideosMenuDAL.Entities;
 
@@ -36,7 +37,7 @@ namespace VideosMenuDAL.Repositories
 
         public List<Genre> GetAll()
         {
-            return _context.Genres.ToList();
+            return _context.Genres.Include(g => g.Video).ToList();
         }
     }
 }

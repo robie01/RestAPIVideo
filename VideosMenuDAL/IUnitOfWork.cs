@@ -12,6 +12,11 @@ namespace VideosMenuDAL
 		{
 			get;
 		}
+        IRentalRepository RentalRepository
+        {
+            get;
+        }
+       
 
         int Complete();
     }
