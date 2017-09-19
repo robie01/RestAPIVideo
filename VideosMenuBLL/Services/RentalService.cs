@@ -42,6 +42,9 @@ namespace VideosMenuBLL.Services
 			using (var uow = facade.UnitOfWork)
 			{
                 var rentalEntity = uow.RentalRepository.Get(Id);
+
+				// getting single order while "Include" keyword is getting all the information of an object.
+				rentalEntity.Video = uow.VideoRepository.Get(rentalEntity.VideoId); 
 				return conv.Convert(rentalEntity);
 			}
         }

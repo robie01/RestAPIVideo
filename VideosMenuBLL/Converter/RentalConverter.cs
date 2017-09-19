@@ -21,7 +21,9 @@ namespace VideosMenuBLL.Converter
                 Id = rent.Id,
                 DeliveryDate = rent.DeliveryDate,
                 RentalDate = rent.RentalDate,
-                Video = new VideoConverter().Convert(rent.Video)
+                Video = new VideoConverter().Convert(rent.Video),
+                VideoId = rent.VideoId
+                                            
 			};
 		}
 
@@ -38,7 +40,8 @@ namespace VideosMenuBLL.Converter
 				Id = rent.Id,
                 DeliveryDate = rent.DeliveryDate,
                 RentalDate = rent.RentalDate,
-                Video = new VideoConverter().Convert(rent.Video)
+              //  Video = new VideoConverter().Convert(rent.Video),
+                VideoId = rent.VideoId
 			};
 
 		}

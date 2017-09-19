@@ -20,6 +20,11 @@ namespace VideosMenuBLL.BO
             get;
             set;
         }
+        public int VideoId
+        {
+            get;
+            set;
+        }
         public BOVideo  Video
         {
             get;

@@ -17,11 +17,11 @@ namespace VideosMenuDAL.Repositories
 
         public Rental Create(Rental rent)
         {
-            if(rent.Video != null)
+           /* if(rent.Video != null)
             {
                 _context.Entry(rent.Video).State = 
                    EntityState.Unchanged;
-            }
+            }*/
             _context.Rents.Add(rent);
             return rent;
         }

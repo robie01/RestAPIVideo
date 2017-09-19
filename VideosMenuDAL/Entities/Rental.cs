@@ -20,6 +20,15 @@ namespace VideosMenuDAL.Entities
             get;
             set;
         }
+        /// <summary>
+        /// Gets or sets the video identifier.
+        /// </summary>
+        /// <value>The video identifier.</value>
+        public int VideoId
+        {
+            get;
+            set;
+        }
         public Video Video
         {
             get;
