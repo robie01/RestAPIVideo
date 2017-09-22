@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace VideosMenuDAL.Entities
 {
     public class Genre
@@ -14,11 +16,12 @@ namespace VideosMenuDAL.Entities
             get;
             set;
         }
-		public Video Video
+        public List<VideoGenre> Videos
 		{
 			get;
 			set;
 		}
+      
     }
 
 }

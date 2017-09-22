@@ -14,6 +14,7 @@ namespace VideosMenuBLL.Converter
         /// <param name="genre">Genre.</param>
         internal BOGenre Convert(Genre genre)
         {
+           
             if (genre == null) { return null; }
 			return new BOGenre()
 			{

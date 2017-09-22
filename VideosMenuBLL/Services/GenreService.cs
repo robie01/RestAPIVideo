@@ -9,11 +9,14 @@ namespace VideosMenuBLL.Services
 {
     public class GenreService : IGenreService
     {
-        GenreConverter conv = new GenreConverter();
+        GenreConverter conv;
+
         DALFacade facade;
+
         public GenreService(DALFacade facade)
         {
             this.facade = facade;
+            conv = new GenreConverter();
         }
 
         public BOGenre Create(BOGenre genre)

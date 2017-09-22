@@ -35,28 +35,30 @@ namespace VideoRestAPI
             {
                 app.UseDeveloperExceptionPage();
                  var facade = new BLLFacade();
+
+				var genre = facade.GenreService.Create(new BOGenre()
+				{
+
+					Name = "Horror",
+
+				});
                var video = facade.VideoService.Create(new BOVideo() 
                 { 
                     Title = "I love u",
                     About = "Love Story",
-                    Owner = "Robie"
+                    Owner = "Robie",
+                    Genres = new List<BOGenre>() { genre }
 
                 });
-                facade.GenreService.Create(new BOGenre()
-                {
-
-                    Name = "LAla",
-                   
-                  
-
-				});
+               
                 for (int i = 0; i < 1000; i++)   {
-                    facade.RentalService.Create(new BORental()
+                    facade.RentalService.Create(
+                        new BORental()
                     {
 
                         DeliveryDate = DateTime.Now.AddMonths(1),
                         RentalDate = DateTime.Now.AddMonths(-1),
-                        Video = video
+                        VideoId = video.Id
 
                     });
                 }

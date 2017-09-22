@@ -1,5 +1,5 @@
 ﻿using System;
-
+using VideosMenuBLL.BO;
 using VideosMenuBLL.Services;
 using VideosMenuDAL;
 
@@ -15,7 +15,7 @@ namespace VideosMenuBLL
 		{
             get { return new RentalService(new DALFacade()); }
 		}
-        public BO.IGenreService GenreService
+        public IGenreService GenreService
 		{
             get { return new GenreService(new DALFacade()); }
 		}

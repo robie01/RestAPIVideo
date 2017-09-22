@@ -33,6 +33,11 @@ namespace VideosMenuDAL.Entities
             get;
             set;
         }
+        public List<VideoGenre> Genres
+        {
+            get;
+            set;
+        }
 
-		}
+	}
 }

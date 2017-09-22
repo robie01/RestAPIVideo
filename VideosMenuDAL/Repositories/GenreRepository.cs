@@ -37,7 +37,7 @@ namespace VideosMenuDAL.Repositories
 
         public List<Genre> GetAll()
         {
-            return _context.Genres.Include(g => g.Video).ToList();
+            return _context.Genres.ToList();
         }
     }
 }

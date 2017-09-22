@@ -32,6 +32,16 @@ namespace VideosMenuBLL.Services
            
            
         }
+        public void CreateAll(List<BOVideo> videos)
+        {
+            using (var uow = facade.UnitOfWork)
+            {
+                foreach (var video in videos)
+                {
+                    uow.VideoRepository.Create(con.Convert(video));
+                }
+            }
+        }
 
 
 
@@ -77,19 +87,21 @@ namespace VideosMenuBLL.Services
         }
 
 
-        public BOVideo Update(BOVideo cust)
+        public BOVideo Update(BOVideo vid)
         {
             using (var uow = facade.UnitOfWork)
             {
-                var customerFromDb = uow.VideoRepository.Get(cust.Id); // ?????
+                var customerFromDb = uow.VideoRepository.Get(vid.Id); // ?????
 				if (customerFromDb == null)
 				{
 					throw new InvalidOperationException("Video not found");
 				}
 
-				customerFromDb.Title = cust.Title;
-				customerFromDb.About = cust.About;
-				customerFromDb.Owner = cust.Owner;
+                var videoUpdated = con.Convert(vid);
+				customerFromDb.Title = vid.Title;
+				customerFromDb.About = vid.About;
+				customerFromDb.Owner = vid.Owner;
+                customerFromDb.Genres = videoUpdated.Genres;
                 uow.Complete();
 				return con.Convert(customerFromDb);
                 

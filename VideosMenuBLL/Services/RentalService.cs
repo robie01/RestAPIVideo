@@ -68,7 +68,11 @@ namespace VideosMenuBLL.Services
                 }
                 rentalEntity.DeliveryDate = rent.DeliveryDate;
                 rentalEntity.RentalDate = rent.RentalDate;
+                rentalEntity.VideoId = rent.VideoId;
                 uow.Complete();
+
+                // BLL choice -- "If we want to get all the information of the Video"
+                rentalEntity.Video = uow.VideoRepository.Get(rentalEntity.VideoId);
                 return conv.Convert(rentalEntity);
 
             }

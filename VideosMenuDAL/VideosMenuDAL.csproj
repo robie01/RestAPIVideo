@@ -10,6 +10,7 @@
     <Compile Remove="Context\VideoServiceEFInMemory.cs" />
     <Compile Remove="Context\CustomerRepositoryEFMemory.cs" />
     <Compile Remove="Context\VideoRepositoryEFMemory.cs" />
+    <Compile Remove="Entities\test.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace VideosMenuDAL.Entities
 {
     public class Rental
@@ -16,6 +18,11 @@ namespace VideosMenuDAL.Entities
         }
 
         public DateTime DeliveryDate
+        {
+            get;
+            set;
+        }
+        public List<Genre> Genres
         {
             get;
             set;
