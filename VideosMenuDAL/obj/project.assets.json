@@ -2446,10 +2446,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/robiesun/Documents/RestAPIVideo/VideosMenuDAL/VideosMenuDAL.csproj",
+      "projectUniqueName": "/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuDAL/VideosMenuDAL.csproj",
       "projectName": "VideosMenuDAL",
-      "projectPath": "/Users/robiesun/Documents/RestAPIVideo/VideosMenuDAL/VideosMenuDAL.csproj",
-      "outputPath": "/Users/robiesun/Documents/RestAPIVideo/VideosMenuDAL/obj",
+      "projectPath": "/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuDAL/VideosMenuDAL.csproj",
+      "outputPath": "/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuDAL/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard2.0"

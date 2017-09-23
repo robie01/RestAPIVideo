@@ -29001,10 +29001,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/VideoRestAPI.csproj",
+      "projectUniqueName": "/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideoRestAPI/VideoRestAPI.csproj",
       "projectName": "VideoRestAPI",
-      "projectPath": "/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/VideoRestAPI.csproj",
-      "outputPath": "/Users/robiesun/Documents/RestAPIVideo/VideoRestAPI/obj",
+      "projectPath": "/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideoRestAPI/VideoRestAPI.csproj",
+      "outputPath": "/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideoRestAPI/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -29012,8 +29012,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/Users/robiesun/Documents/RestAPIVideo/VideosMenuBLL/VideosMenuBLL.csproj": {
-              "projectPath": "/Users/robiesun/Documents/RestAPIVideo/VideosMenuBLL/VideosMenuBLL.csproj"
+            "/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuBLL/VideosMenuBLL.csproj": {
+              "projectPath": "/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuBLL/VideosMenuBLL.csproj"
             }
           }
         }

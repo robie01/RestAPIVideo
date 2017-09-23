@@ -16,7 +16,12 @@ namespace VideosMenuDAL.Entities
             get;
             set;
         }
-        public List<VideoGenre> Videos
+        public string Author
+        {
+            get;
+            set;
+        }
+        public List<VideoGenre> Video
 		{
 			get;
 			set;

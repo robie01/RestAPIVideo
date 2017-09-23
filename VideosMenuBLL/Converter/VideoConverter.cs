@@ -37,10 +37,10 @@ namespace VideosMenuBLL.Converter
             return new Video()
             {
                 Id = videoo.Id,
-                Genres = videoo.Genres.Select(a => new VideoGenre() { 
+                Genres = videoo.Genres?.Select(a => new VideoGenre() { 
 
-                    VideoId = a.Id,
-                    GenreId = videoo.Id
+                    GenreId = a.Id,
+                    VideoId = videoo.Id
                 }).ToList(),
 				Title = videoo.Title,
 				About = videoo.About,

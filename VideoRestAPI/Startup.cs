@@ -38,8 +38,9 @@ namespace VideoRestAPI
 
 				var genre = facade.GenreService.Create(new BOGenre()
 				{
-
+                    
 					Name = "Horror",
+                    Author = "Walkers"
 
 				});
                var video = facade.VideoService.Create(new BOVideo() 

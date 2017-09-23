@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using VideosMenuDAL.Entities;
 using VideosMenuDAL.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace VideosMenuDAL.Repositories
 {
@@ -36,7 +37,8 @@ namespace VideosMenuDAL.Repositories
 
         public List<Video> GetAll()
         {
-            return _context.Videos.ToList();
+            // Genres inside the lambda expression is the Join table.
+            return _context.Videos.Include(c => c.Genres).ThenInclude(a => a.Genres).ToList();
         }
 
        

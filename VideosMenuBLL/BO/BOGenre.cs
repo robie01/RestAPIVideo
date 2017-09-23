@@ -15,6 +15,11 @@ namespace VideosMenuBLL.BO
             get;
             set;
         }
+        public string Author
+        {
+            get;
+            set;
+        }
     
     }
 }

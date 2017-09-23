@@ -28,7 +28,7 @@ namespace VideosMenuDAL.Context
 
             modelBuilder.Entity<VideoGenre>().
                         HasOne(vg => vg.Genres)
-                        .WithMany(g => g.Videos)
+                        .WithMany(g => g.Video)
                         .HasForeignKey(ca => ca.GenreId);
 
             modelBuilder.Entity<VideoGenre>()

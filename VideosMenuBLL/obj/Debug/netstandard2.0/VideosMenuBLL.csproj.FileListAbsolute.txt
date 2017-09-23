@@ -9,3 +9,14 @@
 /Users/robiesun/Documents/RestAPIVideo/VideosMenuBLL/obj/Debug/netstandard2.0/VideosMenuBLL.AssemblyInfo.cs
 /Users/robiesun/Documents/RestAPIVideo/VideosMenuBLL/obj/Debug/netstandard2.0/VideosMenuBLL.dll
 /Users/robiesun/Documents/RestAPIVideo/VideosMenuBLL/obj/Debug/netstandard2.0/VideosMenuBLL.pdb
+/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuBLL/bin/Debug/netstandard2.0/VideosMenuBLL.deps.json
+/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuBLL/bin/Debug/netstandard2.0/VideosMenuBLL.dll
+/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuBLL/bin/Debug/netstandard2.0/VideosMenuBLL.pdb
+/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuBLL/bin/Debug/netstandard2.0/VideosMenuDAL.dll
+/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuBLL/bin/Debug/netstandard2.0/VideosMenuDAL.pdb
+/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuBLL/obj/Debug/netstandard2.0/VideosMenuBLL.csprojResolveAssemblyReference.cache
+/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuBLL/obj/Debug/netstandard2.0/VideosMenuBLL.csproj.CoreCompileInputs.cache
+/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuBLL/obj/Debug/netstandard2.0/VideosMenuBLL.AssemblyInfoInputs.cache
+/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuBLL/obj/Debug/netstandard2.0/VideosMenuBLL.AssemblyInfo.cs
+/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuBLL/obj/Debug/netstandard2.0/VideosMenuBLL.dll
+/Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuBLL/obj/Debug/netstandard2.0/VideosMenuBLL.pdb
