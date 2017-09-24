@@ -12,6 +12,7 @@ namespace VideosMenuDAL
 
         //R
         List<Genre> GetAll();
+        IEnumerable<Genre> GetAllById(List<int> ids);
 		Genre Get(int Id);
 
 

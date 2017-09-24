@@ -20,6 +20,10 @@ namespace VideosMenuBLL.BO
             get;
             set;
         }
-    
+
+        internal object ToList()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

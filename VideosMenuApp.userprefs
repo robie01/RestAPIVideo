@@ -1,5 +1,9 @@
 ﻿<Properties StartupConfiguration="{ED263825-9EB2-4CBA-B0D6-5508C66F8F59}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="VideosMenuDAL/Repositories/VideoRepositoryEFMemory.cs">
+    <Files>
+      <File FileName="VideosMenuDAL/Repositories/VideoRepositoryEFMemory.cs" Line="42" Column="31" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

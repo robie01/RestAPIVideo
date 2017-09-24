@@ -38,7 +38,9 @@ namespace VideosMenuDAL.Repositories
         public List<Video> GetAll()
         {
             // Genres inside the lambda expression is the Join table.
-            return _context.Videos.Include(c => c.Genres).ThenInclude(a => a.Genres).ToList();
+            return _context.Videos.Include(c => c.Genres)
+                         /*  .ThenInclude(a => a.Genres) - for showing other prop of genre.*/
+                           .ToList();
         }
 
        

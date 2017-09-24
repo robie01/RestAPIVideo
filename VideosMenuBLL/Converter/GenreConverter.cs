@@ -19,7 +19,8 @@ namespace VideosMenuBLL.Converter
 			return new BOGenre()
 			{
                 Id = genre.Id,
-                Name = genre.Name
+                Name = genre.Name,
+                Author = genre.Author
 			};
         }
 
@@ -34,7 +35,8 @@ namespace VideosMenuBLL.Converter
             return new Genre()
             {
                 Id = gen.Id,
-                Name = gen.Name
+                Name = gen.Name,
+				Author = gen.Author
             };
             
         }

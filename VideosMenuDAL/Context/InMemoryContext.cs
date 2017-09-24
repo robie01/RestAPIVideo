@@ -10,10 +10,20 @@ namespace VideosMenuDAL.Context
         private static DbContextOptions<InMemoryContext> option = new DbContextOptionsBuilder<InMemoryContext>().UseInMemoryDatabase("TheDB").Options;
 
         //Options That we want in Memory
-        public InMemoryContext() : base (option)
+       /* public InMemoryContext() : base (option)
         {
             
+        }*/
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if(!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer(@"Server=tcp:vrobie.database.windows.net,1433;Initial Catalog=VideoAppDatabase;Persist Security Info=False;User ID=vrobie;Password=Programming2017;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30");
+            }
+          
         }
+
 
         /// <summary>
         /// This method overrides from DBContext. Fluent API, mapping JOIN Table "VideoGenre".

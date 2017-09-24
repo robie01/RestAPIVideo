@@ -39,5 +39,12 @@ namespace VideosMenuDAL.Repositories
         {
             return _context.Genres.ToList();
         }
+
+        public IEnumerable<Genre> GetAllById(List<int> ids)
+        {
+            if (ids == null) { return null;}
+
+            return _context.Genres.Where(a => ids.Contains(a.Id));
+        }
     }
 }

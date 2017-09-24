@@ -12,6 +12,7 @@ namespace VideosMenuBLL.Services
     public class VideoService : IVideoService // This means the actual VideoService class should have all the implementation from IVideoService
     {
         VideoConverter con = new VideoConverter();
+        GenreConverter gconv = new GenreConverter();
 
         DALFacade facade;
         public VideoService(DALFacade facade)
@@ -57,11 +58,27 @@ namespace VideosMenuBLL.Services
             }
         }
 
-        public BOVideo Get(int id)
+        public BOVideo Get(int Id)
         {
 			using (var uow = facade.UnitOfWork)
 			{
-                return con.Convert(uow.VideoRepository.Get(id));
+                //1. Get and convert the Video
+                var vid = con.Convert(uow.VideoRepository.Get(Id));
+
+                //2. Get All related Genres from GenresRepository using genresIds
+                //3. Convert and Add the Genres to the BOVideo
+
+                // we get All Genres information by getting only the id.
+                /* vid.Genres = vid.GenresIds?
+                 .Select(id => gconv.Convert(uow.GenreRepository.Get(id))).ToList();*/
+
+                vid.Genres = uow.GenreRepository.GetAllById(vid.GenresIds)
+                    .Select(g => gconv.Convert(g)).ToList();
+                                
+				
+
+                //4. Return the customer
+                return vid;
 			
 
 			}
@@ -102,6 +119,16 @@ namespace VideosMenuBLL.Services
 				customerFromDb.About = vid.About;
 				customerFromDb.Owner = vid.Owner;
                 customerFromDb.Genres = videoUpdated.Genres;
+
+
+                //1. Remove All, except the "old" ids we wanna keep (Avoid attached issues)
+
+                //2. Remove All ids already in database from videoUpdated
+
+                //3. Add All new VideoGenre not yet seen in the DB
+
+
+
                 uow.Complete();
 				return con.Convert(customerFromDb);
                 

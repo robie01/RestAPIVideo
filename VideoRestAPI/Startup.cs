@@ -36,23 +36,50 @@ namespace VideoRestAPI
                 app.UseDeveloperExceptionPage();
                  var facade = new BLLFacade();
 
-				var genre = facade.GenreService.Create(new BOGenre()
+				var genre1 = facade.GenreService.Create(new BOGenre()
 				{
                     
 					Name = "Horror",
                     Author = "Walkers"
 
 				});
-               var video = facade.VideoService.Create(new BOVideo() 
-                { 
-                    Title = "I love u",
-                    About = "Love Story",
-                    Owner = "Robie",
-                    Genres = new List<BOGenre>() { genre }
+
+
+				var genre2 = facade.GenreService.Create(new BOGenre()
+				{
+
+					Name = "Suspence",
+					Author = "Blob"
+
+				});
+
+                
+                var genre3 = facade.GenreService.Create(new BOGenre()
+                {
+                    
+                    Name = "blaaaa",
+                    Author = "blloooo"
 
                 });
-               
-                for (int i = 0; i < 1000; i++)   {
+
+               var video = facade.VideoService.Create(new BOVideo() 
+                { 
+                    Title = "Deevv",
+                    About = "You dont want to know",
+                    Owner = "Robie",
+                    GenresIds = new List<int>() { genre1.Id, genre2.Id }
+
+                });
+
+			    facade.VideoService.Create(new BOVideo()
+				{
+					Title = "Computer Science",
+					About = "Programming",
+					Owner = "Finnur",
+					GenresIds = new List<int>() { genre1.Id, genre3.Id }
+
+				});
+                for (int i = 0; i < 8; i++)   {
                     facade.RentalService.Create(
                         new BORental()
                     {
