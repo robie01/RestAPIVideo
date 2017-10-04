@@ -26,6 +26,12 @@ namespace VideoRestAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>{
+                builder.WithOrigins("http://localhost:4200")
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,7 +45,7 @@ namespace VideoRestAPI
 				var genre1 = facade.GenreService.Create(new BOGenre()
 				{
                     
-					Name = "Horror",
+					Name = "Horror  ",
                     Author = "Walkers"
 
 				});
@@ -64,7 +70,7 @@ namespace VideoRestAPI
 
                var video = facade.VideoService.Create(new BOVideo() 
                 { 
-                    Title = "Deevv",
+                    Title = "Good day",
                     About = "You dont want to know",
                     Owner = "Robie",
                     GenresIds = new List<int>() { genre1.Id, genre2.Id }

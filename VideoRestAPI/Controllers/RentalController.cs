@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using VideosMenuBLL;
 using VideosMenuBLL.BO;
@@ -10,6 +11,7 @@ using VideosMenuBLL.BO;
 
 namespace VideoRestAPI.Controllers
 {
+    [EnableCors("MyPolicy")]
     [Produces("application/json")]
     [Route("api/[controller]")]
     public class RentalController : Controller
