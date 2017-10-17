@@ -17,6 +17,7 @@ namespace VideosMenuBLL.Converter
 		internal BOVideo Convert(Video vid)
 		{
             if (vid == null) { return null; }
+
             return new BOVideo()
             {
                 Id = vid.Id,
@@ -30,13 +31,15 @@ namespace VideosMenuBLL.Converter
 
 				Title = vid.Title,
 				About = vid.About,
-				Owner = vid.Owner
+				Owner = vid.Owner,
+                Address = vid.Address
 			};
 		}
 
 		internal Video Convert(BOVideo videoo)
 		{
 			if (videoo == null) { return null; }
+
             return new Video()
             {
                 Id = videoo.Id,
@@ -47,7 +50,8 @@ namespace VideosMenuBLL.Converter
                 }).ToList(),
 				Title = videoo.Title,
 				About = videoo.About,
-				Owner = videoo.Owner
+				Owner = videoo.Owner,
+                Address = videoo.Address
 
 			};
 		}

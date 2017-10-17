@@ -27,7 +27,7 @@ namespace VideoRestAPI
         {
             services.AddMvc();
 
-            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>{
+                services.AddCors(o => o.AddPolicy("MyPolicy", builder =>{
                 builder.WithOrigins("http://localhost:4200")
                        .AllowAnyMethod()
                        .AllowAnyHeader();
@@ -54,7 +54,7 @@ namespace VideoRestAPI
 				var genre2 = facade.GenreService.Create(new BOGenre()
 				{
 
-					Name = "Suspence",
+					Name = "Suspence   ",
 					Author = "Blob"
 
 				});
@@ -73,6 +73,7 @@ namespace VideoRestAPI
                     Title = "Good day",
                     About = "You dont want to know",
                     Owner = "Robie",
+                    Address = "Sælhundevej 97",
                     GenresIds = new List<int>() { genre1.Id, genre2.Id }
 
                 });
@@ -82,6 +83,7 @@ namespace VideoRestAPI
 					Title = "Computer Science",
 					About = "Programming",
 					Owner = "Finnur",
+                    Address = "Denmark",
 					GenresIds = new List<int>() { genre1.Id, genre3.Id }
 
 				});

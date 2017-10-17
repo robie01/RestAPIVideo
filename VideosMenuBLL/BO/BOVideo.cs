@@ -33,6 +33,11 @@ namespace VideosMenuBLL.BO
             get;
             set;
         }
+        public string Address
+        {
+            get;
+            set;
+        }
 
         /// <summary>
         /// Gets or sets the genres. Many to many relation.

@@ -16,3 +16,21 @@
 /Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuDAL/obj/Debug/netstandard2.0/VideosMenuDAL.AssemblyInfo.cs
 /Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuDAL/obj/Debug/netstandard2.0/VideosMenuDAL.dll
 /Users/robiesun/Library/Mobile Documents/com~apple~CloudDocs/Documents/RestAPIVideo/VideosMenuDAL/obj/Debug/netstandard2.0/VideosMenuDAL.pdb
+/Users/robiesun/MEGA/RestAPIVideo/VideosMenuDAL/bin/Debug/netstandard2.0/VideosMenuDAL.deps.json
+/Users/robiesun/MEGA/RestAPIVideo/VideosMenuDAL/bin/Debug/netstandard2.0/VideosMenuDAL.dll
+/Users/robiesun/MEGA/RestAPIVideo/VideosMenuDAL/bin/Debug/netstandard2.0/VideosMenuDAL.pdb
+/Users/robiesun/MEGA/RestAPIVideo/VideosMenuDAL/obj/Debug/netstandard2.0/VideosMenuDAL.csprojResolveAssemblyReference.cache
+/Users/robiesun/MEGA/RestAPIVideo/VideosMenuDAL/obj/Debug/netstandard2.0/VideosMenuDAL.csproj.CoreCompileInputs.cache
+/Users/robiesun/MEGA/RestAPIVideo/VideosMenuDAL/obj/Debug/netstandard2.0/VideosMenuDAL.AssemblyInfoInputs.cache
+/Users/robiesun/MEGA/RestAPIVideo/VideosMenuDAL/obj/Debug/netstandard2.0/VideosMenuDAL.AssemblyInfo.cs
+/Users/robiesun/MEGA/RestAPIVideo/VideosMenuDAL/obj/Debug/netstandard2.0/VideosMenuDAL.dll
+/Users/robiesun/MEGA/RestAPIVideo/VideosMenuDAL/obj/Debug/netstandard2.0/VideosMenuDAL.pdb
+/Users/robiesun/Documents/3rd sem/SDP/RestAPIVideo/VideosMenuDAL/bin/Debug/netstandard2.0/VideosMenuDAL.deps.json
+/Users/robiesun/Documents/3rd sem/SDP/RestAPIVideo/VideosMenuDAL/bin/Debug/netstandard2.0/VideosMenuDAL.dll
+/Users/robiesun/Documents/3rd sem/SDP/RestAPIVideo/VideosMenuDAL/bin/Debug/netstandard2.0/VideosMenuDAL.pdb
+/Users/robiesun/Documents/3rd sem/SDP/RestAPIVideo/VideosMenuDAL/obj/Debug/netstandard2.0/VideosMenuDAL.csprojResolveAssemblyReference.cache
+/Users/robiesun/Documents/3rd sem/SDP/RestAPIVideo/VideosMenuDAL/obj/Debug/netstandard2.0/VideosMenuDAL.csproj.CoreCompileInputs.cache
+/Users/robiesun/Documents/3rd sem/SDP/RestAPIVideo/VideosMenuDAL/obj/Debug/netstandard2.0/VideosMenuDAL.AssemblyInfoInputs.cache
+/Users/robiesun/Documents/3rd sem/SDP/RestAPIVideo/VideosMenuDAL/obj/Debug/netstandard2.0/VideosMenuDAL.AssemblyInfo.cs
+/Users/robiesun/Documents/3rd sem/SDP/RestAPIVideo/VideosMenuDAL/obj/Debug/netstandard2.0/VideosMenuDAL.dll
+/Users/robiesun/Documents/3rd sem/SDP/RestAPIVideo/VideosMenuDAL/obj/Debug/netstandard2.0/VideosMenuDAL.pdb

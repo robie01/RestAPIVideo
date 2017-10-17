@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "Microsoft.CSharp/4.4.0": {
@@ -470,9 +470,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Collections.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Collections.Immutable/1.4.0": {
@@ -527,9 +524,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Diagnostics.Debug.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/4.4.1": {
@@ -550,9 +544,6 @@
         },
         "compile": {
           "ref/netstandard1.3/_._": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Interactive.Async/3.1.1": {
@@ -578,9 +569,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.IO.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Linq/4.1.0": {
@@ -673,9 +661,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Reflection.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Reflection.Emit/4.0.1": {
@@ -733,9 +718,6 @@
         },
         "compile": {
           "ref/netstandard1.0/System.Reflection.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Reflection.Primitives/4.0.1": {
@@ -747,9 +729,6 @@
         },
         "compile": {
           "ref/netstandard1.0/System.Reflection.Primitives.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Reflection.TypeExtensions/4.1.0": {
@@ -776,9 +755,6 @@
         },
         "compile": {
           "ref/netstandard1.0/_._": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Runtime/4.1.0": {
@@ -789,9 +765,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Runtime.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.4.0": {
@@ -812,9 +785,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Runtime.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Security.AccessControl/4.4.0": {
@@ -871,9 +841,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Text.Encoding.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Text.Encoding.CodePages/4.4.0": {
@@ -916,9 +883,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "VideosMenuBLL/1.0.0": {
@@ -1508,9 +1472,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Collections.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Collections.Immutable/1.4.0": {
@@ -1556,9 +1517,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Diagnostics.Debug.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/4.4.1": {
@@ -1580,9 +1538,6 @@
         },
         "compile": {
           "ref/netstandard1.3/_._": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Interactive.Async/3.1.1": {
@@ -1609,9 +1564,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.IO.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Linq/4.1.0": {
@@ -1715,9 +1667,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Reflection.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Reflection.Emit/4.0.1": {
@@ -1776,9 +1725,6 @@
         },
         "compile": {
           "ref/netstandard1.0/System.Reflection.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Reflection.Primitives/4.0.1": {
@@ -1791,9 +1737,6 @@
         },
         "compile": {
           "ref/netstandard1.0/System.Reflection.Primitives.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Reflection.TypeExtensions/4.1.0": {
@@ -1821,9 +1764,6 @@
         },
         "compile": {
           "ref/netstandard1.0/_._": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Runtime/4.1.0": {
@@ -1835,9 +1775,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Runtime.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.4.0": {
@@ -1859,9 +1796,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Runtime.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Security.AccessControl/4.4.0": {
@@ -1899,9 +1833,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Text.Encoding.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Text.Encoding.CodePages/4.4.0": {
@@ -1939,9 +1870,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "VideosMenuBLL/1.0.0": {
@@ -2782,9 +2710,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Collections.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Collections.Immutable/1.4.0": {
@@ -2830,9 +2755,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Diagnostics.Debug.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/4.4.1": {
@@ -2854,9 +2776,6 @@
         },
         "compile": {
           "ref/netstandard1.3/_._": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Interactive.Async/3.1.1": {
@@ -2883,9 +2802,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.IO.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Linq/4.1.0": {
@@ -2989,9 +2905,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Reflection.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Reflection.Emit/4.0.1": {
@@ -3050,9 +2963,6 @@
         },
         "compile": {
           "ref/netstandard1.0/System.Reflection.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Reflection.Primitives/4.0.1": {
@@ -3065,9 +2975,6 @@
         },
         "compile": {
           "ref/netstandard1.0/System.Reflection.Primitives.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Reflection.TypeExtensions/4.1.0": {
@@ -3095,9 +3002,6 @@
         },
         "compile": {
           "ref/netstandard1.0/_._": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Runtime/4.1.0": {
@@ -3109,9 +3013,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Runtime.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.4.0": {
@@ -3133,9 +3034,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Runtime.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Security.AccessControl/4.4.0": {
@@ -3173,9 +3071,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Text.Encoding.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Text.Encoding.CodePages/4.4.0": {
@@ -3213,9 +3108,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "VideosMenuBLL/1.0.0": {
@@ -4056,9 +3948,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Collections.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Collections.Immutable/1.4.0": {
@@ -4104,9 +3993,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Diagnostics.Debug.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/4.4.1": {
@@ -4128,9 +4014,6 @@
         },
         "compile": {
           "ref/netstandard1.3/_._": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Interactive.Async/3.1.1": {
@@ -4157,9 +4040,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.IO.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Linq/4.1.0": {
@@ -4263,9 +4143,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Reflection.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Reflection.Emit/4.0.1": {
@@ -4324,9 +4201,6 @@
         },
         "compile": {
           "ref/netstandard1.0/System.Reflection.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Reflection.Primitives/4.0.1": {
@@ -4339,9 +4213,6 @@
         },
         "compile": {
           "ref/netstandard1.0/System.Reflection.Primitives.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Reflection.TypeExtensions/4.1.0": {
@@ -4369,9 +4240,6 @@
         },
         "compile": {
           "ref/netstandard1.0/_._": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Runtime/4.1.0": {
@@ -4383,9 +4251,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Runtime.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.4.0": {
@@ -4407,9 +4272,6 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Runtime.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Security.AccessControl/4.4.0": {
@@ -4447,9 +4309,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Text.Encoding.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "System.Text.Encoding.CodePages/4.4.0": {
@@ -4487,9 +4346,6 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
         }
       },
       "VideosMenuBLL/1.0.0": {
@@ -7821,22 +7677,34 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/robiesun/MEGA/RestAPIVideo/VideosMenuUI/VideosMenuUI.csproj",
+      "projectUniqueName": "/Users/robiesun/Documents/3rd sem/SDP/RestAPIVideo/VideosMenuUI/VideosMenuUI.csproj",
       "projectName": "VideosMenuUI",
-      "projectPath": "/Users/robiesun/MEGA/RestAPIVideo/VideosMenuUI/VideosMenuUI.csproj",
-      "outputPath": "/Users/robiesun/MEGA/RestAPIVideo/VideosMenuUI/obj",
+      "projectPath": "/Users/robiesun/Documents/3rd sem/SDP/RestAPIVideo/VideosMenuUI/VideosMenuUI.csproj",
+      "packagesPath": "/Users/robiesun/.nuget/packages/",
+      "outputPath": "/Users/robiesun/Documents/3rd sem/SDP/RestAPIVideo/VideosMenuUI/obj",
       "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/robiesun/.config/NuGet/NuGet.Config"
+      ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/Users/robiesun/MEGA/RestAPIVideo/VideosMenuBLL/VideosMenuBLL.csproj": {
-              "projectPath": "/Users/robiesun/MEGA/RestAPIVideo/VideosMenuBLL/VideosMenuBLL.csproj"
+            "/Users/robiesun/Documents/3rd sem/SDP/RestAPIVideo/VideosMenuBLL/VideosMenuBLL.csproj": {
+              "projectPath": "/Users/robiesun/Documents/3rd sem/SDP/RestAPIVideo/VideosMenuBLL/VideosMenuBLL.csproj"
             }
           }
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {
@@ -7845,12 +7713,15 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.0"
+            "version": "2.0.0",
+            "autoReferenced": true
           }
         },
         "imports": [
           "net461"
-        ]
+        ],
+        "assetTargetFallback": true,
+        "warn": true
       }
     },
     "runtimes": {

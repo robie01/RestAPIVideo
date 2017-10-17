@@ -1,8 +1,20 @@
 ﻿<Properties StartupConfiguration="{ED263825-9EB2-4CBA-B0D6-5508C66F8F59}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="VideoRestAPI/Startup.cs">
     <Files>
-      <File FileName="VideoRestAPI/Startup.cs" Line="48" Column="22" />
-      <File FileName="VideoRestAPI/Controllers/GenreController.cs" Line="1" Column="1" />
+      <File FileName="VideosMenuBLL/Services/VideoService.cs" Line="8" Column="1" />
+      <File FileName="VideosMenuDAL/Entities/Video.cs" Line="49" Column="2" />
+      <File FileName="VideosMenuDAL/Context/InMemoryContext.cs" Line="60" Column="1" />
+      <File FileName="VideosMenuDAL/Entities/Genre.cs" Line="1" Column="1" />
+      <File FileName="VideosMenuDAL/Entities/VideoGenre.cs" Line="1" Column="1" />
+      <File FileName="VideosMenuDAL/Repositories/VideoRepositoryEFMemory.cs" Line="21" Column="12" />
+      <File FileName="VideosMenuDAL/DALFacade.cs" Line="1" Column="1" />
+      <File FileName="VideosMenuDAL/IVideoRepository.cs" Line="1" Column="1" />
+      <File FileName="VideosMenuDAL/UOW/UnitOfWorkMem.cs" Line="1" Column="1" />
+      <File FileName="VideosMenuBLL/BO/BOVideo.cs" Line="37" Column="10" />
+      <File FileName="VideosMenuBLL/Converter/VideoConverter.cs" Line="35" Column="38" />
+      <File FileName="VideosMenuBLL/IVideoService.cs" Line="1" Column="1" />
+      <File FileName="VideoRestAPI/Controllers/VideoController.cs" Line="1" Column="1" />
+      <File FileName="VideoRestAPI/Startup.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

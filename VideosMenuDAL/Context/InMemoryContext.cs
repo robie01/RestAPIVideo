@@ -10,19 +10,19 @@ namespace VideosMenuDAL.Context
         private static DbContextOptions<InMemoryContext> option = new DbContextOptionsBuilder<InMemoryContext>().UseInMemoryDatabase("TheDB").Options;
 
         //Options That we want in Memory
-       /* public InMemoryContext() : base (option)
+        public InMemoryContext() : base(option)
         {
-            
-        }*/
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if(!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer(@"Server=tcp:vrobie.database.windows.net,1433;Initial Catalog=VideoAppDatabase;Persist Security Info=False;User ID=vrobie;Password=Programming2017;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30");
-            }
-          
         }
+
+        /*protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+          {
+              if(!optionsBuilder.IsConfigured)
+              {
+                  optionsBuilder.UseSqlServer(@"Server=tcp:vrobie.database.windows.net,1433;Initial Catalog=VideoAppDatabase;Persist Security Info=False;User ID=vrobie;Password=Programming2017;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30");
+              }
+
+          }*/
 
 
         /// <summary>
@@ -31,10 +31,10 @@ namespace VideosMenuDAL.Context
         /// <param name="modelBuilder">Model builder.</param>
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
+
             /// haskey(primary key); combining key of genre and video to get unique key.
             /// bound key.
-            modelBuilder.Entity<VideoGenre>().HasKey(vg => new { vg.GenreId, vg.VideoId});
+            modelBuilder.Entity<VideoGenre>().HasKey(vg => new { vg.GenreId, vg.VideoId });
 
             modelBuilder.Entity<VideoGenre>().
                         HasOne(vg => vg.Genres)
@@ -52,9 +52,8 @@ namespace VideosMenuDAL.Context
         // remember this is from entityFrameWork
         public DbSet<Video> Videos { get; set; }
 
-		public DbSet<Genre> Genres { get; set; }
+        public DbSet<Genre> Genres { get; set; }
 
-		public DbSet<Rental> Rents { get; set; }
-        
+        public DbSet<Rental> Rents { get; set; }
     }
 }

@@ -5,29 +5,35 @@ namespace VideosMenuDAL.Entities
 {
     public class Video
     {
-		
-			public int Id
-			{
-				get;
-				set;
-			}
-			public string Title
-			{
-				get;
-				set;
-			}
 
-			public string About
-			{
-				get;
-				set;
-			}
+        public int Id
+        {
+            get;
+            set;
+        }
+        public string Title
+        {
+            get;
+            set;
+        }
 
-			public string Owner
-			{
-				get;
-				set;
-			}
+        public string About
+        {
+            get;
+            set;
+        }
+
+        public string Owner
+        {
+            get;
+            set;
+        }
+        public string Address
+        {
+            get;
+            set;
+        }
+
         public List<Rental> Rentals
         {
             get;
@@ -39,5 +45,5 @@ namespace VideosMenuDAL.Entities
             set;
         }
 
-	}
+    }
 }
