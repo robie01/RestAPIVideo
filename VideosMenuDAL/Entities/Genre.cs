@@ -21,7 +21,7 @@ namespace VideosMenuDAL.Entities
             get;
             set;
         }
-        public List<VideoGenre> Video
+        public List<VideoGenre> Videos
 		{
 			get;
 			set;

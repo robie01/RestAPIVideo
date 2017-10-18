@@ -21,12 +21,21 @@ namespace VideosMenuBLL.Converter
             return new BOVideo()
             {
                 Id = vid.Id,
-                GenresIds = vid.Genres?.Select(a => a.GenreId).ToList(),
-             
-                /* Genres = vid.Genres?.Select(a => new BOGenre(){
+                Genres= vid.Genres?.Select(a => new BOGenre(){
 
                     Id = a.VideoId,
-                    Name = a.Genres?.Name
+                    Name = a.Genres?.Name,
+                    Author = a.Genres?.Author
+
+                }).ToList(),
+
+
+               /* Genres= vid.Genres?.Select(a => new BOGenre()
+                {
+
+                    Id = a.VideoId,
+                    Name = a.Genres?.Name,
+                    Author = a.Genres?.Author
                 }).ToList(),*/
 
 				Title = vid.Title,
@@ -43,9 +52,9 @@ namespace VideosMenuBLL.Converter
             return new Video()
             {
                 Id = videoo.Id,
-                Genres = videoo.GenresIds?.Select(aId => new VideoGenre() { 
+                Genres = videoo.Genres?.Select(a => new VideoGenre() { 
 
-                    GenreId = aId,
+                    GenreId = a.Id,
                     VideoId = videoo.Id
                 }).ToList(),
 				Title = videoo.Title,

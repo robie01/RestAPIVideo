@@ -71,11 +71,10 @@ namespace VideosMenuBLL.Services
                 // we get All Genres information by getting only the id.
                 /* vid.Genres = vid.GenresIds?
                  .Select(id => gconv.Convert(uow.GenreRepository.Get(id))).ToList();*/
-                if(vid.GenresIds != null){
-					vid.Genres = uow.GenreRepository.GetAllById(vid.GenresIds)
-					.Select(g => gconv.Convert(g)).ToList();
 
-				}
+
+					/*vid.Genres = uow.GenreRepository.GetAllById(vid.GenresIds)
+					.Select(g => gconv.Convert(g)).ToList();*/
                                 
 				
 

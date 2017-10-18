@@ -34,12 +34,13 @@ namespace VideosMenuDAL.Entities
             set;
         }
 
-        public List<Rental> Rentals
+      
+        public List<VideoGenre> Genres
         {
             get;
             set;
         }
-        public List<VideoGenre> Genres
+        public List<Rental> Rentals
         {
             get;
             set;

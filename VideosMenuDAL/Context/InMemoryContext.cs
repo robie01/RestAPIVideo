@@ -36,9 +36,9 @@ namespace VideosMenuDAL.Context
             /// bound key.
             modelBuilder.Entity<VideoGenre>().HasKey(vg => new { vg.GenreId, vg.VideoId });
 
-            modelBuilder.Entity<VideoGenre>().
-                        HasOne(vg => vg.Genres)
-                        .WithMany(g => g.Video)
+            modelBuilder.Entity<VideoGenre>()
+                        .HasOne(vg => vg.Genres)
+                        .WithMany(g => g.Videos)
                         .HasForeignKey(ca => ca.GenreId);
 
             modelBuilder.Entity<VideoGenre>()

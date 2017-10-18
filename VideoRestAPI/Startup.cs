@@ -60,13 +60,7 @@ namespace VideoRestAPI
 				});
 
                 
-                var genre3 = facade.GenreService.Create(new BOGenre()
-                {
-                    
-                    Name = "blaaaa",
-                    Author = "blloooo"
-
-                });
+              
 
                var video = facade.VideoService.Create(new BOVideo() 
                 { 
@@ -74,7 +68,7 @@ namespace VideoRestAPI
                     About = "You dont want to know",
                     Owner = "Robie",
                     Address = "Sælhundevej 97",
-                    GenresIds = new List<int>() { genre1.Id, genre2.Id }
+                    Genres = new List<BOGenre>() { genre1 }
 
                 });
 
@@ -83,11 +77,11 @@ namespace VideoRestAPI
 					Title = "Computer Science",
 					About = "Programming",
 					Owner = "Finnur",
-                    Address = "Denmark",
-					GenresIds = new List<int>() { genre1.Id, genre3.Id }
+                    Address ="Denmark",
+                    Genres = new List<BOGenre>() { genre2 }
 
 				});
-                for (int i = 0; i < 8; i++)   {
+                for (int i = 0; i < 5; i++)   {
                     facade.RentalService.Create(
                         new BORental()
                     {

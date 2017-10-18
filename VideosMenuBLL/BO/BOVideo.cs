@@ -38,6 +38,11 @@ namespace VideosMenuBLL.BO
             get;
             set;
         }
+       /* public List<int> GenresIds
+        {
+            get;
+            set;
+        }*/
 
         /// <summary>
         /// Gets or sets the genres. Many to many relation.
@@ -48,13 +53,7 @@ namespace VideosMenuBLL.BO
             get;
             set;
         }
-        public List<int> GenresIds
-        {
-            get;
-            set;
-        }
-
-
+       
         public string AllInformation
         {
 
